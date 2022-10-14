@@ -1,0 +1,29 @@
+.progressBar {
+  display: flex;
+  width: 100%;
+  border: 1px solid #ccc;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  border-radius: 15px;
+  overflow: hidden;
+  color: #fff;
+  padding: 5px 0;
+  min-height: 30px;
+}
+
+.progressBar__background {
+  display: block;
+  height: 100%;
+  position: absolute;
+  background: #f00;
+  transition: 0.5s all;
+  left: 0;
+  margin: 0;
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  min-width: 40px;
+  justify-content: center;
+  border-radius: 15px;
+}
